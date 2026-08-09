@@ -1,0 +1,234 @@
+# ALFA-Y-OMEGA
+SERVICIO INTEGRAL 
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Servicio Integral Alfa y Omega</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #f4f4f4;
+      color: #222;
+    }
+
+    header {
+      background: linear-gradient(135deg, #111, #333);
+      color: white;
+      text-align: center;
+      padding: 70px 20px;
+    }
+
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 12px;
+      color: #f5b400;
+    }
+
+    header p {
+      font-size: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 14px 25px;
+      background: #25d366;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+      background: #1ebe5d;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 55px 20px;
+    }
+
+    .titulo {
+      text-align: center;
+      font-size: 32px;
+      margin-bottom: 35px;
+      color: #222;
+    }
+
+    .servicios {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 30px 20px;
+      text-align: center;
+      border-radius: 12px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: 0.3s;
+      border-top: 5px solid #f5b400;
+    }
+
+    .card:hover {
+      transform: translateY(-7px);
+    }
+
+    .card .icono {
+      font-size: 40px;
+      margin-bottom: 15px;
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+    }
+
+    .contacto {
+      background: #111;
+      color: white;
+      text-align: center;
+      border-radius: 15px;
+    }
+
+    .contacto h2 {
+      color: #f5b400;
+      margin-bottom: 20px;
+    }
+
+    .contacto p {
+      margin: 12px 0;
+      font-size: 18px;
+    }
+
+    .email {
+      color: #f5b400;
+      text-decoration: none;
+    }
+
+    footer {
+      background: #080808;
+      color: #aaa;
+      text-align: center;
+      padding: 25px 15px;
+      margin-top: 30px;
+    }
+
+    footer strong {
+      color: #f5b400;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 31px;
+      }
+
+      header p {
+        font-size: 17px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🏗️ Alfa y Omega</h1>
+    <p>Servicio Integral de Construcción</p>
+    <a class="btn" href="https://wa.me/5491162556472" target="_blank">
+      📱 Contactar por WhatsApp
+    </a>
+  </header>
+
+  <section>
+    <h2 class="titulo">Nuestros Servicios</h2>
+
+    <div class="servicios">
+
+      <div class="card">
+        <div class="icono">🏗️</div>
+        <h3>Construcciones</h3>
+        <p>Construcciones en general para proyectos nuevos y obras.</p>
+      </div>
+
+      <div class="card">
+        <div class="icono">🔨</div>
+        <h3>Refacciones</h3>
+        <p>Refacciones y remodelaciones para renovar tus espacios.</p>
+      </div>
+
+      <div class="card">
+        <div class="icono">🏠</div>
+        <h3>Ampliaciones</h3>
+        <p>Ampliaciones y modificaciones adaptadas a tus necesidades.</p>
+      </div>
+
+      <div class="card">
+        <div class="icono">🧱</div>
+        <h3>Demoliciones</h3>
+        <p>Trabajos de demolición y preparación de espacios.</p>
+      </div>
+
+      <div class="card">
+        <div class="icono">🏠</div>
+        <h3>Techista</h3>
+        <p>Trabajos y mantenimiento de techos.</p>
+      </div>
+
+      <div class="card">
+        <div class="icono">💧</div>
+        <h3>Impermeabilizaciones</h3>
+        <p>Protección contra filtraciones y humedad.</p>
+      </div>
+
+      <div class="card">
+        <div class="icono">🎨</div>
+        <h3>Pintura</h3>
+        <p>Pintura interior y exterior con terminaciones profesionales.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <div class="contacto">
+      <h2>📞 Contactanos</h2>
+
+      <p>¿Necesitás un presupuesto para tu proyecto?</p>
+
+      <p>📱 WhatsApp: <strong>+54 9 11 6255-6472</strong></p>
+
+      <p>
+        📧
+        <a class="email" href="mailto:waltervidal33@gmail.com">
+          waltervidal33@gmail.com
+        </a>
+      </p>
+
+      <a class="btn" href="https://wa.me/5491162556472" target="_blank">
+        Solicitar presupuesto
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 <strong>Servicio Integral Alfa y Omega</strong></p>
+    <p>Construcción • Refacciones • Remodelaciones</p>
+  </footer>
+
+</body>
+</html>
+```
